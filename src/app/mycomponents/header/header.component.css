@@ -76,4 +76,29 @@
     animation-duration: 2s;
   }
 
+
+  @keyframes colorChange {
+    0%, 100% {
+      background-color: initial; /* Start and end with the initial color */
+    }
+    20% {
+      background-color: #f4f3f3; /* Change color at 20% (2 seconds) */
+    }
+    40% {
+      background-color: #bee0c4; /* Change color at 40% (4 seconds) */
+    }
+    60% {
+      background-color: #cecae1; /* Change color at 60% (6 seconds) */
+    }
+    80% {
+      background-color: #ddaea3; /* Change color at 80% (8 seconds) */
+    }
+  }
+  
+  .color-changing {
+    background: #ffffff;
+    /* animation: colorChange 10s linear infinite; Run the animation for 10 seconds and repeat infinitely */
+  }
+  
+
   
